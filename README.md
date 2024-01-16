@@ -1,23 +1,25 @@
 Netflix Clone
 A Netflix clone project created by Yash Mathur (https://github.com/TheMorpheus7) and me.
-The project replicates the Netflix interface and functionality using HTML, CSS, and React.js.
+The project replicates the Netflix interface and functionality using HTML, CSS, APIs and javascript.
 
 
 Introduction
 The Netflix Clone project is a collaborative effort between Yash Mathur (https://github.com/TheMorpheus7) and me. 
 It aims to recreate the Netflix experience, providing users with a familiar interface and functionality.
-The project was developed using HTML, CSS, and React.js.
+The project was developed using HTML, CSS, Javascript and Apis.
 
 Features
 -->Netflix-like user interface.
 -->Responsive design for various devices.
--->Integration with React.js for dynamic content.
+-->Integration with JavaScript for dynamic content
+--> Data featching using APIs 
 
 Prerequisites
 Make sure you have knowledge of the following softwares:
--->Node.js
+-->Javascript 
 -->html
 -->css
+-->Apis
 
 Project Flow
 -->Landing Page: The project features a visually appealing landing page that serves as the entry point. 
