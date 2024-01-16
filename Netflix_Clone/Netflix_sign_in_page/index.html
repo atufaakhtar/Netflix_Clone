@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix login page clone</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var signInButton = document.getElementById("signInButton");
+            if (signInButton) {
+                signInButton.addEventListener("click", function() {
+                    window.location.href = "../Netflix_landing_page/index.html";
+                });
+            }
+
+            var signInForm = document.getElementById("signInForm");
+            if (signInForm) {
+                signInForm.addEventListener("submit", function(event) {
+                    event.preventDefault();
+                    var authenticated = true;
+                    if (authenticated) {
+                        window.location.href = "../Netflix_home_page/index.html";
+                    } else {
+                        alert("Authentication failed. Please check your credentials.");
+                    }
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="#"><img src="images/netflix_logo.png" alt="logo"></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Sign In</h2>
+        <form action="#" id="signInForm">
+            <div class="form-control">
+                <input type="text" placeholder="Email or Phone number" required>
+                <label>Email or Phone number</label>
+            </div>
+            <div class="form-control">
+                <input type="password" placeholder="Password" required>
+                <label>Password</label>
+            </div>
+            <button type="submit">Sign In</button>
+            <div class="form-help">
+                <div class="remember-me">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <a href="#">Need help?</a>
+            </div>
+        </form>
+        <br>
+        <br>
+        <p>New to Netflix? <a href="#">Sign Up Now</a></p>
+        <small>This page is protected by Google reCAPTCHA to ensure that you're not a bot.
+            <a href="#">Learn more.</a>
+        </small>
+    </div>
+</body>
+</html>
